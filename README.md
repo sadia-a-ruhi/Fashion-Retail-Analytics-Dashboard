@@ -48,10 +48,10 @@ A public, anonymized transactional dataset containing consumer demographics and 
 - Step 5: UI/UX Dashboard Build: Designed a premium 4-page report (Executive Overview, Customer Insights, Product & Geography, and an Explorer page).
 
 ### Dashboard Structure
-- Page 1 — Executive Overview: Total Revenue, Gross Profit, Margin %, and AOV as headline KPIs, along with a monthly trend line and a dynamic Discount Simulator.
-- Page 2 — Customer Insights: RFM Segmentation donut chart, demographic breakdowns (Age/Gender), and Churn Rate analysis. Includes a Bookmark toggle to swap the entire page between Revenue and Profit views.
-- Page 3 — Product & Geography: Global revenue map, Treemap for SKU profitability, Waterfall Chart showing profit contribution by category, and a Scatter Plot analyzing the impact of Discount % on Gross Margin.
-- Hidden Page — Explorer: A row-level detail page. Users can right-click any data point and drill through to see raw transaction data.
+- Page 1: Executive Overview: Total Revenue, Gross Profit, Margin %, and AOV as headline KPIs, along with a monthly trend line and a dynamic Discount Simulator.
+- Page 2: Customer Insights: RFM Segmentation donut chart, demographic breakdowns (Age/Gender), and Churn Rate analysis. Includes a Bookmark toggle to swap the entire page between Revenue and Profit views.
+- Page 3: Product & Geography: Global revenue map, Treemap for SKU profitability, Waterfall Chart showing profit contribution by category, and a Scatter Plot analyzing the impact of Discount % on Gross Margin.
+- Hidden Page: Explorer: A row-level detail page. Users can right-click any data point and drill through to see raw transaction data.
 
 ### Sample DAX: The RFM Segmentation Table
 ```dax RFM Table = 
