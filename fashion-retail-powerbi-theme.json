@@ -1,0 +1,129 @@
+{
+  "name": "Sailor Club Crimson & Charcoal",
+  "dataColors": [
+    "#D32027",
+    "#1B1E23",
+    "#8C9198",
+    "#AA181E",
+    "#4A5058",
+    "#E55358",
+    "#B5B8BD",
+    "#2C3036"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1B1E23",
+  "foregroundNeutralSecondary": "#4A5058",
+  "foregroundNeutralTertiary": "#8C9198",
+  "backgroundLight": "#EDEDEE",
+  "backgroundNeutral": "#C7C9CC",
+  "tableAccent": "#D32027",
+  "good": "#2E7D32",
+  "neutral": "#8C9198",
+  "bad": "#D32027",
+  "maximum": "#AA181E",
+  "center": "#EDEDEE",
+  "minimum": "#1B1E23",
+  "null": "#C7C9CC",
+  "textClasses": {
+    "callout": {
+      "fontSize": 32,
+      "fontFace": "Segoe UI Bold",
+      "color": "#D32027"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1B1E23"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1B1E23"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#2C3036"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#C7C9CC"
+              }
+            },
+            "radius": 6
+          }
+        ],
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#1B1E23"
+              }
+            },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#EDEDEE"
+              }
+            },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#D32027"
+              }
+            },
+            "fontFamily": "Segoe UI Bold",
+            "fontSize": 28
+          }
+        ],
+        "categoryLabels": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#2C3036"
+              }
+            },
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 11
+          }
+        ]
+      }
+    }
+  }
+}
