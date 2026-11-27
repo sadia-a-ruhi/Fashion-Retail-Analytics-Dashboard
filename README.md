@@ -41,11 +41,11 @@ A public, anonymized transactional dataset containing consumer demographics and 
 - Interactive BI Design: Slicers, bookmark-based toggles (Revenue vs. Profit view), custom tooltips, and a hidden drill-through page.
 
 ### Project Workflow
-- Step 1 — Business Requirements Document: Defined scope, business questions, key definitions, and success criteria before any data work began.
-- Step 2 — Data Cleaning (Power Query): Resolved data type mismatches, removed orphaned consumer records, and built a dynamic DateTable for time intelligence.
-- Step 3 — Data Modeling: Built a Star Schema connecting Fact (Purchases info) and Dimension (Consumers info) tables to ensure 1-to-Many relationships.
-- Step 4 — DAX & Analytics: Wrote complex DAX to dynamically score and segment 3,000+ customers into the RFM Table calculated table.
-- Step 5 — UI/UX Dashboard Build: Designed a premium 4-page report (Executive Overview, Customer Insights, Product & Geography, and an Explorer page).
+- Step 1: Business Requirements Document: Defined scope, business questions, key definitions, and success criteria before any data work began.
+- Step 2: Data Cleaning (Power Query): Resolved data type mismatches, removed orphaned consumer records, and built a dynamic DateTable for time intelligence.
+- Step 3: Data Modeling: Built a Star Schema connecting Fact (Purchases info) and Dimension (Consumers info) tables to ensure 1-to-Many relationships.
+- Step 4: DAX & Analytics: Wrote complex DAX to dynamically score and segment 3,000+ customers into the RFM Table calculated table.
+- Step 5: UI/UX Dashboard Build: Designed a premium 4-page report (Executive Overview, Customer Insights, Product & Geography, and an Explorer page).
 
 ### Dashboard Structure
 - Page 1 — Executive Overview: Total Revenue, Gross Profit, Margin %, and AOV as headline KPIs, along with a monthly trend line and a dynamic Discount Simulator.
